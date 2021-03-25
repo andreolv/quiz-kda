@@ -1,0 +1,256 @@
+* {
+	font-family: Circular Std;
+}
+
+.conteudo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+.painel {
+	background-color: #1e1e26;
+	display: block;
+	width: 45vh;
+	height: 90vh;
+	margin-top: 5vh;
+	border-radius: 10px;
+	box-shadow: 1px 1px 1px 1px;
+}
+
+.titulo,
+.imagem,
+.pergunta,
+.botao,
+.botaoComecar,
+.logoRiot,
+.respostas,
+.resposta,
+.logoRiotPergunta,
+.index,
+.botoesAcao,
+.imagemResultado,
+.resultado,
+.botaoResultado,
+.botaoRefazer,
+.logoRiotResultado,
+.redesSociais {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.titulo {
+	margin-top: 3vh;
+}
+
+.tituloResultado {
+	margin-top: 3vh;
+}
+
+.tituloTela {
+	font-size: 2vh;
+	color: rgb(199, 199, 199);
+}
+
+.tituloResultado {
+	font-size: 2vh;
+	color: rgb(199, 199, 199);
+}
+
+.index {
+	margin-top: 1vh;
+}
+
+.indexPergunta {
+	font-size: 1.5vh;
+	color: whitesmoke;
+}
+
+.imagem {
+	margin-top: 2vh;
+}
+
+.imagem>img {
+	width: 90%;
+	height: 35vh;
+}
+
+.imagemResultado {
+	margin-top: 1vh;
+}
+
+.imagemResultado>img {
+	width: 70vh;
+	height: 35vh;
+}
+
+.pergunta {
+	flex-direction: column;
+	margin-top: 1vh;
+	flex-grow: 1;
+}
+
+.resultado {
+	flex-direction: column;
+	margin-top: -3vh;
+	flex-grow: 1;
+}
+
+.tituloPergunta {
+	font-size: 2.4vh;
+	color: whitesmoke;
+	width: 100%;
+	margin-top: 1vh;
+	margin-left: 5vh;
+}
+
+.tituloResultado {
+	font-size: 2.4vh;
+	color: whitesmoke;
+	width: 100%;
+	margin-top: 1vh;
+	margin-left: 5vh;
+}
+
+.descricaoPergunta {
+	width: 90%;
+	margin-left: 7vh;
+	margin-right: 6vh;
+	margin-top: 1vh;
+	font-size: 1.7vh;
+	color: rgb(156, 156, 156);
+}
+
+.descricaoResultado {
+	width: 90%;
+	margin-left: 7vh;
+	margin-right: 6vh;
+	margin-top: 1vh;
+	font-size: 1.7vh;
+	color: rgb(211, 211, 211);
+}
+
+.botao {
+	flex-direction: column;
+	margin-top: 2.2vh;
+}
+
+.botaoResultado {
+	flex-direction: column;
+	margin-top: 1vh;
+}
+
+.botaoComecar:hover {
+	cursor: pointer;
+}
+
+.botaoRefazer:hover {
+	cursor: pointer;
+}
+
+.botaoComecar {
+	width: 100%;
+	height: 9vh;
+	background-image: url("../img/hover.png");
+	font-size: 4vh;
+}
+
+.botaoRefazer {
+	width: 100%;
+	height: 6vh;
+	background-image: url("../img/hover.png");
+	font-size: 3vh;
+	margin-top: -1.4vh;
+	margin-bottom: -1vh;
+}
+
+.hrBotao {
+	width: 100%;
+	height: 0.2vh;
+	border-top: 0.09vh solid rgb(207, 207, 207);
+}
+
+.logoRiot {
+	margin-top: 2vh;
+}
+
+.logoRiotPergunta {
+	margin-top: 4vh;
+}
+
+.logoRiotResultado {
+	margin-top: 1vh;
+}
+
+.logoRiotResultado>img {
+	width: 45px;
+	height: 14px;
+}
+
+.logoRiot>img {
+	width: 55px;
+	height: 19px;
+}
+
+.logoRiotPergunta>img {
+	width: 45px;
+	height: 14px;
+}
+
+.respostas {
+	flex-direction: column;
+}
+
+.resposta {
+	background-color: #9BB3F1;
+	min-width: 45.3vh;
+	margin-left: 0.3vh;
+	margin-top: 2vh;
+	font-size: 2vh;
+	font-weight: bolder;
+	min-height: 0.7vh;
+}
+
+.resposta:hover {
+	background-image: url("../img/hover.png");
+	/* Full height */
+	height: 100%;
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	cursor: context-menu;
+}
+
+.botoesAcao {
+	flex-direction: row;
+	color: white;
+	margin-left: 7vh;
+	max-width: 30vh;
+	justify-content: space-between !important;
+	margin-top: 5.2vh;
+}
+
+.voltar,
+.proximo {
+	cursor: pointer
+}
+
+.naoSelecionavel {
+	-webkit-touch-callout: none;
+	/* iPhone OS, Safari */
+	-webkit-user-select: none;
+	/* Chrome, Safari 3 */
+	-khtml-user-select: none;
+	/* Safari 2 */
+	-moz-user-select: none;
+	/* Firefox */
+	-ms-user-select: none;
+	/* IE10+ */
+	user-select: none;
+	/* Possível implementação no futuro */
+	/* cursor: default; */
+}
